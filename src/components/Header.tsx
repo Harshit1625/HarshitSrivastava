@@ -8,17 +8,17 @@ function handleSkill() {
   });
 }
 
-function handleProject(){
+function handleProject() {
   window.scrollTo({
-    top : 1050 , 
-    behavior : "smooth"
-  })
+    top: 1050,
+    behavior: "smooth",
+  });
 }
-function handleContact(){
+function handleContact() {
   window.scrollTo({
-    top : 1500 , 
-    behavior : "smooth"
-  })
+    top: 1500,
+    behavior: "smooth",
+  });
 }
 
 const Header: FC = () => {
@@ -26,9 +26,9 @@ const Header: FC = () => {
     <div className="lg:h-[6vh]">
       <ul className="flex justify-between p-5 font-bold cursor-pointer">
         <li>
-        <img
+          <img
             className="lg:h-[8vh] sm:w-[12vw] lg:w-[12vw] h-[12vh] w-[15vw] object-cover"
-            src="/src/assets/Project image .png"
+            src="/Project image .png"
             alt="signature"
           />
         </li>
@@ -49,7 +49,6 @@ const Header: FC = () => {
             Contact
           </li>
         </button>
-        
       </ul>
     </div>
   );

@@ -32,7 +32,7 @@ const HeroSection: FC = () => {
           </div>
           <img
             className="lg:h-[8vh] lg:w-[12vw] h-[12vh] w-[50vw] md:h-[20vh] md:w-[30vw] sm:h-[10vh] sm:w-[22vw] object-cover"
-            src="/src/assets/Project image .png"
+            src="/Project image .png"
             alt="signature"
           />
           <div className="flex pb-2 pt-2">
@@ -143,7 +143,7 @@ const HeroSection: FC = () => {
         </div>
         <img
           className="lg:h-[45vh] lg:w-[30vw] lg:ml-0 md:h-[60vh] md:w-[40vw] md:ml-[30vw] mb-9 sm:h-[50vh] sm:w-[50vw] sm:ml-[20vh] object-cover"
-          src="/src/assets/myimage.jpg"
+          src="/myimage.jpg"
           alt="myImage"
         />
       </div>

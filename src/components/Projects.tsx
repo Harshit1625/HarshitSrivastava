@@ -30,13 +30,13 @@ const Projects: FC = () => {
   return (
     <div className="lg:h-[90vh] h-[210vh] md:h-[230vh] sm:h-[200vh]">
       <Template page="PROJECTS">
-      <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <div className="border w-[34vw] ml-8 lg:w-[10.2vw] md:w-[14.6vh] md:mr-[4.9vw] lg:mr-7 sm:w-[23vw] sm:mr-7 mt-1"></div>
         </div>
         <div className="flex lg:flex-row flex-col justify-evenly lg:h-[90vh] lg:mt-[8vh] mt-[9vh]">
           <div className="flex flex-col p-7 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
             <img
-              src="/src/assets/ChatZone.png"
+              src="/ChatZone.png"
               className="lg:h-35 lg:w-80"
               alt="ChatZone"
             />
@@ -148,7 +148,7 @@ const Projects: FC = () => {
                 <h1 className="ml-2">Launch</h1>
               </button>
               <button className="flex p-3 lg:w-[17vh]  ml-3 lg:ml-0 w-1/2 justify-center bg-indigo-800 hover:bg-indigo-950 rounded-md transition-all duration-250 ease-in-out">
-                <img src="/src/assets/github.svg" className="h-6 w-6" alt="" />
+                <img src="/github.svg" className="h-6 w-6" alt="" />
                 <h1 className="ml-2">Repository</h1>
               </button>
             </div>
@@ -156,11 +156,7 @@ const Projects: FC = () => {
 
           {/* Flyup */}
           <div className="flex flex-col p-7 mt-9 mb-9 lg:mt-0 lg:mb-0 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
-            <img
-              src="/src/assets/FlyUP.png"
-              className="lg:h-35 lg:w-80"
-              alt="FlyUp"
-            />
+            <img src="/FlyUP.png" className="lg:h-35 lg:w-80" alt="FlyUp" />
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               FlyUp - A Travel Booking App
             </h1>
@@ -292,7 +288,7 @@ const Projects: FC = () => {
                 <h1 className="ml-2">Demo</h1>
               </button>
               <button className="flex p-3 lg:w-[17vh] ml-3 lg:ml-0 w-1/2 justify-center bg-indigo-800 hover:bg-indigo-950 rounded-md transition-all duration-250 ease-in-out">
-                <img src="/src/assets/github.svg" className="h-6 w-6" alt="" />
+                <img src="/github.svg" className="h-6 w-6" alt="" />
                 <h1 className="ml-2">Repository</h1>
               </button>
             </div>
@@ -300,11 +296,7 @@ const Projects: FC = () => {
 
           {/* Movix */}
           <div className="flex flex-col p-7 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
-            <img
-              src="/src/assets/Movix.png"
-              className="lg:h-35 lg:w-80"
-              alt="ChatZone"
-            />
+            <img src="/Movix.png" className="lg:h-35 lg:w-80" alt="ChatZone" />
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               Movix - A Movie Review App
             </h1>
@@ -388,7 +380,7 @@ const Projects: FC = () => {
                 <h1 className="ml-2">Launch</h1>
               </button>
               <button className="flex p-3 lg:w-[17vh] ml-3 lg:ml-0 w-1/2 justify-center bg-indigo-800 hover:bg-indigo-950 rounded-md transition-all duration-250 ease-in-out">
-                <img src="/src/assets/github.svg" className="h-6 w-6" alt="" />
+                <img src="/github.svg" className="h-6 w-6" alt="" />
                 <h1 className="ml-2">Repository</h1>
               </button>
             </div>
