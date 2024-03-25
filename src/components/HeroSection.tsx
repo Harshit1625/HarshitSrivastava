@@ -1,6 +1,6 @@
 "use client";
 import { FC } from "react";
-import TypeWriterEffect from "react-typewriter-effect";
+import TypeWriterEffect from 'react-typewriter-effect';
 
 const HeroSection: FC = () => {
   return (
