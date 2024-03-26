@@ -14,48 +14,48 @@ const Footer: FC = () => {
   return (
     <div className="mt-[5vh]">
       <Template page="CONTACT">
-      <div className="flex items-center justify-center">
-          <div className="border ml-5 w-[31vw] lg:w-[10vw] md:w-[16vw] md:mr-[5vw] sm:w-[21vw] sm:mr-[3.5vw] lg:mr-8 mt-1"></div>
-        </div>
+      {/* <div className="flex items-center justify-center">
+          <div className="border ml-8 w-[40vw] lg:w-[10vw] md:w-[16vw] md:mr-[5vw] sm:w-[21vw] sm:mr-[3.5vw] lg:mr-8 mt-1"></div>
+        </div> */}
         <div className="flex mt-[5vh]">
-          <form onSubmit={handleSubmit} method="post">
+          <form onSubmit={handleSubmit} className="sm:ml-[2vw]" method="post">
             <div>
-              <div className="flex flex-row ml-[4vw]">
+              <div className="flex flex-row lg:ml-[2.5vw] md:ml-[4w]">
                 <input
                   className="mr-[10px] w-[34vw] p-3 lg:pl-6 bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
                   type="text"
                   name="first-name"
-                  placeholder="Enter Your First Name"
+                  placeholder="First Name"
                   required
                 />
                 <input
-                  className="lg:w-[34vw] w-[33vw] p-3 lg:pl-6 bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
+                  className="lg:w-[34vw] w-[31vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 bg-transparent truncate border rounded-md placeholder:text-white placeholder:opacity-30"
                   type="text"
                   name="last-name"
-                  placeholder="Enter Your Last Name"
+                  placeholder="Last Name"
                   required
                 />
               </div>
-              <div className="flex flex-row ml-[4vw] mt-4">
+              <div className="flex flex-row lg:ml-[2.5vw] md:ml-[4w] mt-4">
                 <input
                   className="mr-[10px] w-[34vw] p-3 lg:pl-6 bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
                   type="text"
                   name="email"
-                  placeholder="Enter Your Email Address"
+                  placeholder="Email Address"
                   required
                 />
                 <input
-                  className="lg:w-[34vw] w-[33vw] p-3 lg:pl-6 truncate bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
-                  type="number"
+                  className="lg:w-[34vw] w-[31vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 truncate bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
+                  type="text"
                   name="mobileNumber"
-                  placeholder="Enter Your Phone Number"
+                  placeholder="Phone Number"
                   required
                 />
               </div>
 
               <textarea
                 placeholder="Type Your Message Here"
-                className="w-[68.8vw] mt-4 ml-[4vw] p-3 pl-6 bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
+                className="w-[68.8vw] mt-4 lg:ml-[2.5vw] md:ml-[4w] lg:w-[68.8vw] md:w-[73vw] p-3 pl-6 bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
                 name="message"
                 cols={30}
                 rows={10}
@@ -66,7 +66,7 @@ const Footer: FC = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="p-4 font-semibold w-[25vw] rounded-md bg-indigo-900 transition-all ease-in-out duration-200 hover:bg-transparent border ml-[48vw]"
+              className="p-4 font-semibold w-[25vw] rounded-md bg-indigo-900 transition-all ease-in-out duration-200 hover:bg-transparent border ml-[44vw] lg:ml-[46.5vw] md:ml-[48vw]"
             >
               Submit
             </button>

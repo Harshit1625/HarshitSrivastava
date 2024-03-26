@@ -1,6 +1,6 @@
 "use client";
 import { FC } from "react";
-import TypeWriterEffect from 'react-typewriter-effect';
+import TypeWriterEffect from "react-typewriter-effect";
 
 const HeroSection: FC = () => {
   return (
@@ -8,7 +8,9 @@ const HeroSection: FC = () => {
       <div className="flex flex-col-reverse lg:flex-row lg:p-[14vh]">
         <div className="leading-[40px] lg:w-[40vw]">
           <div className="ml-7">
-            <h2 className="text-indigo-500 font-bold md:text-[20px] lg:text-[20px] sm:text-[18px]">About</h2>
+            <h2 className="text-indigo-500 font-bold md:text-[20px] lg:text-[20px] sm:text-[18px]">
+              About
+            </h2>
             <div className="border w-[10vw]"></div>
             <div className="flex lg:flex-row flex-col">
               <h1 className="text-[30px]  font-bold font mt-2">Hello , I'm</h1>
@@ -118,27 +120,29 @@ const HeroSection: FC = () => {
                 </g>
               </svg>
             </a>
-            <button className="flex bg-indigo-800 pl-4 pr-4  rounded-tr-xl rounded-bl-xl group hover:bg-transparent transition ease-in-out duration-300 hover:border">
-              <h1 className="font-bold">
-                <h1 className="hidden lg:inline">Download</h1> Resume
-              </h1>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6 mt-3 ml-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                  />
-                </svg>
-              </span>
-            </button>
+            <a href="/Resume.pdf" download="Harshit-Srivastava-Resume.pdf">
+              <button className="flex bg-indigo-800 pl-4 pr-4  rounded-tr-xl rounded-bl-xl group hover:bg-transparent transition ease-in-out duration-300 hover:border">
+                <h1 className="font-bold">
+                  <h1 className="hidden lg:inline">Download</h1> Resume
+                </h1>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="w-6 h-6 mt-3 ml-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <img

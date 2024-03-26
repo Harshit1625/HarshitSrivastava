@@ -41,7 +41,7 @@ const Expertise: FC = () => {
         scrollTrigger: {
           trigger: "#third",
           start: "top 90%",
-          end: "top 55%",
+          end: "top 70%",
           scrub: true,
         },
       }
@@ -88,15 +88,15 @@ const Expertise: FC = () => {
   return (
     <>
       <Template page="SKILLS">
-        <div className="flex items-center justify-center">
-          <div className="border w-[21.4vw] lg:w-[6.5vw] mr-8 md:w-[11vw] md:mr-[8.2vw] lg:mr-[7vh] sm:w-[15vw] sm:mr-[7vw]"></div>
-        </div>
-        <div className="flex overflow-hidden mt-7 sm:mt-0 md:mt-0 lg:mt-0 flex-col h-[50vh] justify-center items-center">
+        {/* <div className="flex items-center justify-center">
+          <div className="border w-[29vw] lg:w-[6.5vw] mr-6 md:w-[11vw] md:mr-[8.2vw] lg:mr-[7vh] sm:w-[15vw] sm:mr-[7vw]"></div>
+        </div> */}
+        <div className="flex overflow-hidden mt-[10vh] mb-[10vh] flex-col justify-center items-center">
           <div
             id="first"
             className="flex flex-col sm:flex-row md:flex-row lg:flex-row w-full justify-between lg:justify-evenly "
           >
-            <div className=" flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2  border-dotted items-center justify-center pr-2">
+            <div className=" flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2  border-dotted items-center justify-center pr-2 pt-1 pb-2">
               <img
                 className="h-[30px] w-[30px] mt-1"
                 src="/MongoDb.png"
@@ -104,7 +104,7 @@ const Expertise: FC = () => {
               />
               <h1 className="mt-2  font-bold">MongoDB</h1>
             </div>
-            <div className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2   border-dotted items-center justify-center pl-2 pr-2">
+            <div className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2   border-dotted items-center justify-center pl-2 pr-2 pt-2 pb-2 mt-3 mb-3 sm:mt-0 sm:mb-0 md:mt-0 md:mb-0 lg:mt-0 lg:mb-0">
               <img
                 className="lg:h-[30px] lg:w-[30px] h-[27px] w-[27px]"
                 src="/Express.png"
@@ -125,7 +125,7 @@ const Expertise: FC = () => {
               className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[23vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 border rounded-xl items-center justify-center pr-2"
             >
               <img
-                className="h-[30px] w-[30px] mt-1"
+              className="h-[30px] w-[30px] mt-1"
                 src="/Tailwind.png"
                 alt=""
               />
@@ -133,11 +133,11 @@ const Expertise: FC = () => {
             </div>
             <div
               id="typescript"
-              className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 border rounded-xl items-center justify-center pr-3"
+              className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 border rounded-xl items-center justify-center pr-3 mt-3 sm:mt-0  md:mt-0  lg:mt-0 "
             >
               <img
                 className="h-[30px] w-[30px]"
-                src="/public/TypeScript.png"
+                src="/public/Typescript.png"
                 alt="typescript"
               />
               <h1 className="mt-2 ml-2 font-bold">TypeScript</h1>
@@ -149,11 +149,11 @@ const Expertise: FC = () => {
             id="third"
             className="flex flex-col  sm:flex-row md:flex-row  lg:flex-row w-full justify-between lg:justify-evenly mt-9"
           >
-            <div className="flex flex-row md:w-[15vw] lg:w-[13vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800  hover:rounded-xl border-2  border-dotted items-center justify-center pr-2">
+            <div className="flex flex-row md:w-[15vw] lg:w-[13vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800  hover:rounded-xl border-2  border-dotted items-center justify-center pr-2 pt-2 pb-2">
               <img className="h-[30px] w-[30px] mt-1" src="/Node .png" alt="" />
               <h1 className="mt-2  font-bold">NodeJS</h1>
             </div>
-            <div className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2  border-dotted items-center justify-center pr-2">
+            <div className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[20vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 hover:rounded-xl border-2  border-dotted items-center justify-center pr-2 pt-2 pb-2 mt-3 mb-3 sm:mt-0 sm:mb-0 md:mt-0 md:mb-0 lg:mt-0 lg:mb-0">
               <img className="h-[30px] w-[30px]" src="/Next.png" alt="" />
               <h1 className="mt-2 ml-2 font-bold">NextJS</h1>
             </div>
