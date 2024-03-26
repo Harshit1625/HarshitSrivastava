@@ -1,26 +1,6 @@
 "use client";
 import { FC } from "react";
 
-function handleSkill() {
-  window.scrollTo({
-    top: 500,
-    behavior: "smooth",
-  });
-}
-
-function handleProject() {
-  window.scrollTo({
-    top: 950,
-    behavior: "smooth",
-  });
-}
-function handleContact() {
-  window.scrollTo({
-    top: 3300,
-    behavior: "smooth",
-  });
-}
-
 const Header: FC = () => {
   return (
     <div>
