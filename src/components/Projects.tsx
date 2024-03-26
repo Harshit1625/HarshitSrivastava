@@ -28,12 +28,12 @@ const Projects: FC = () => {
     );
   }, []);
   return (
-    <div className="lg:h-[90vh] h-[210vh] md:h-[230vh] sm:h-[200vh]">
+    <div>
       <Template page="PROJECTS">
         <div className="flex items-center justify-center">
           <div className="border w-[34vw] ml-8 lg:w-[10.2vw] md:w-[14.6vh] md:mr-[4.9vw] lg:mr-7 sm:w-[23vw] sm:mr-7 mt-1"></div>
         </div>
-        <div className="flex lg:flex-row flex-col justify-evenly lg:h-[90vh] lg:mt-[8vh] mt-[9vh]">
+        <div className="flex lg:flex-row flex-col justify-evenly lg:mt-[8vh] mt-[9vh]">
           <div className="flex flex-col p-7 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
             <img
               src="/ChatZone.png"
@@ -43,7 +43,7 @@ const Projects: FC = () => {
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               ChatZone - A Chatting App
             </h1>
-            <div className="border border-indigo-600 mt-2 w-[37vh]"></div>
+            <div className="border border-indigo-600 mt-2 lg:w-[37vh]"></div>
             <p className="font-semibold lg:w-[39vh] pt-3 pb-3">
               A chat app where you can authentiate yourself with google , add
               friends , chat with them in realtime.Also comes with a incoming
@@ -160,7 +160,7 @@ const Projects: FC = () => {
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               FlyUp - A Travel Booking App
             </h1>
-            <div className="border border-indigo-600 mt-2 w-[37vh]"></div>
+            <div className="border border-indigo-600 mt-2 lg:w-[37vh]"></div>
             <p className="font-semibold lg:w-[39vh] pt-3 pb-3">
               A travel booking app where you can plan your next travel.
             </p>
@@ -300,7 +300,7 @@ const Projects: FC = () => {
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               Movix - A Movie Review App
             </h1>
-            <div className="border border-indigo-600 mt-2 w-[37vh]"></div>
+            <div className="border border-indigo-600 mt-2 lg:w-[37vh]"></div>
             <p className="font-semibold lg:w-[39vh] pt-3 pb-3">
               A movie reviewing app where you can view ratings , cast , trailer
               , release date , search movies by genre , search movies by
@@ -387,7 +387,6 @@ const Projects: FC = () => {
           </div>
         </div>
       </Template>
-      <div className="h-[60vh]"></div>
     </div>
   );
 };

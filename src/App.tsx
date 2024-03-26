@@ -8,7 +8,7 @@ import Footer from "./components/Footer.tsx";
 interface AppProps {}
 
 const App: FC<AppProps> = () => {
-  return <div className="">
+  return <div>
     <Header/>
     <HeroSection />
     <Expertise />

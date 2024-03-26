@@ -12,7 +12,7 @@ const HeroSection: FC = () => {
             <div className="border w-[10vw]"></div>
             <div className="flex lg:flex-row flex-col">
               <h1 className="text-[30px]  font-bold font mt-2">Hello , I'm</h1>
-              <span className="text-indigo-500 text-[30px] font-bold font mt-2 lg:ml-3 pb-4">
+              <span className="text-indigo-500 text-[24px] font-bold font mt-2 lg:ml-3 pb-4">
                 <TypeWriterEffect
                   startDelay={20}
                   cursorColor="#3F3D56"
