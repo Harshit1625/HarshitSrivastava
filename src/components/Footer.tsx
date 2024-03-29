@@ -13,7 +13,7 @@ const Footer: FC = () => {
 
   return (
     <div className="mt-[5vh]">
-      <Template page="CONTACT">
+      <Template page="CONTACT ME">
       {/* <div className="flex items-center justify-center">
           <div className="border ml-8 w-[40vw] lg:w-[10vw] md:w-[16vw] md:mr-[5vw] sm:w-[21vw] sm:mr-[3.5vw] lg:mr-8 mt-1"></div>
         </div> */}
@@ -29,7 +29,7 @@ const Footer: FC = () => {
                   required
                 />
                 <input
-                  className="lg:w-[34vw] w-[31vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 bg-transparent truncate border rounded-md placeholder:text-white placeholder:opacity-30"
+                  className="lg:w-[34vw] w-[31.5vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 bg-transparent truncate border rounded-md placeholder:text-white placeholder:opacity-30"
                   type="text"
                   name="last-name"
                   placeholder="Last Name"
@@ -45,7 +45,7 @@ const Footer: FC = () => {
                   required
                 />
                 <input
-                  className="lg:w-[34vw] w-[31vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 truncate bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
+                  className="lg:w-[34vw] w-[31.5vw] sm:w-[33.5vw] md:w-[38vw] p-3 lg:pl-6 truncate bg-transparent border rounded-md placeholder:text-white placeholder:opacity-30"
                   type="text"
                   name="mobileNumber"
                   placeholder="Phone Number"

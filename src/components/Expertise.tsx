@@ -125,7 +125,7 @@ const Expertise: FC = () => {
               className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[23vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 border rounded-xl items-center justify-center pr-2"
             >
               <img
-              className="h-[30px] w-[30px] mt-1"
+              className="h-[29px] w-[29px] mt-1"
                 src="/Tailwind.png"
                 alt=""
               />
@@ -137,7 +137,7 @@ const Expertise: FC = () => {
             >
               <img
                 className="h-[30px] w-[30px]"
-                src="/public/Typescript.png"
+                src="/public/typescript1.png"
                 alt="typescript"
               />
               <h1 className="mt-2 ml-2 font-bold">TypeScript</h1>
