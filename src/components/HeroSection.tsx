@@ -98,7 +98,9 @@ const HeroSection: FC = () => {
             <a href="https://twitter.com/sof_thenic">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="mt-3 cursor-pointer h-8 w-9 mr-7 hover:filter hover:saturate-0 transition ease-in-out duration-200"
+                height="25px"
+                width="30px"
+                className="mt-3 mr-7 cursor-pointer  hover:filter hover:saturate-0 transition ease-in-out duration-200"
                 viewBox="0 0 512 512"
               >
                 <path
