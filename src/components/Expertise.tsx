@@ -133,7 +133,7 @@ const Expertise: FC = () => {
             </div>
             <div
               id="typescript"
-              className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[23vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 border rounded-xl items-center justify-center pr-2"
+              className="flex flex-row lg:w-[13vw] md:w-[15vw] sm:w-[23vw] transition-all ease-in-out duration-300 cursor-pointer hover:border-indigo-800 pl-2 pt-2 pb-2 mt-2 lg:mt-0 border rounded-xl items-center justify-center pr-2"
             >
               <img
                 className="h-[29px] w-[29px] mt-1"

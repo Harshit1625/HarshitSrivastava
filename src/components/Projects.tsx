@@ -34,7 +34,7 @@ const Projects: FC = () => {
           <div className="border w-[44vw] ml-[10vw] lg:w-[10.2vw] lg:mr-[10vw] md:w-[14.6vh] md:mr-[12vw] sm:w-[23vw] sm:mr-[10vw] mt-1"></div>
         </div> */}
         <div className="flex lg:flex-row mt-[10vh] mb-[10vh] flex-col justify-evenly lg:mt-[8vh]">
-          <div className="flex flex-col p-7 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
+          <div className="flex flex-col lg:mr-5 p-7 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
             <img
               src="/ChatZone.png"
               className="lg:h-35 lg:w-80"
@@ -151,7 +151,7 @@ const Projects: FC = () => {
                 </button>
               </a>
               <a href="https://github.com/Harshit1625/ChatApp">
-                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md lg:w-[15vh] w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
+                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md  w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
                   <img src="/github.svg" className="h-6 w-6" alt="" />
                   <h1 className="ml-2">Repository</h1>
                 </button>
@@ -160,7 +160,7 @@ const Projects: FC = () => {
           </div>
 
           {/* Flyup */}
-          <div className="flex flex-col p-7 mt-9 mb-9 lg:mt-0 lg:mb-0 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
+          <div className="flex flex-col p-7 lg:mr-5 mt-9 mb-9 lg:mt-0 lg:mb-0 border-2 border-double rounded-tr-xl rounded-bl-xl transition-all duration-250 ease-in-out bg-gradient-to-b from-indigo-950 project">
             <img src="/FlyUP.png" className="lg:h-35 lg:w-80" alt="FlyUp" />
             <h1 className="text-[16px] ml-1 mt-3 font-bold">
               FlyUp - A Travel Booking App
@@ -296,7 +296,7 @@ const Projects: FC = () => {
                 </button>
               </a>
               <a href="https://github.com/Harshit1625/Travel-Booking-App">
-                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md lg:w-[15vh] w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
+                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
                   <img src="/github.svg" className="h-6 w-6" alt="" />
                   <h1 className="ml-2">Repository</h1>
                 </button>
@@ -393,7 +393,7 @@ const Projects: FC = () => {
                 </button>
               </a>
               <a href="https://github.com/Harshit1625/Movix">
-                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md lg:w-[15vh] w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
+                <button className="flex p-3 bg-indigo-800 items-center hover:bg-indigo-900 justify-center rounded-md w-full  mb-2 sm:mr-2 md:mr-2 lg:mr-2 sm:mb-2 md:mb-2 lg:mb-0 transition-all duration-250 ease-in-out">
                   <img src="/github.svg" className="h-6 w-6" alt="" />
                   <h1 className="ml-2">Repository</h1>
                 </button>
